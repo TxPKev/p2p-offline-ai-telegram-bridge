@@ -29,7 +29,7 @@ Default intended pipeline: inbound PCM is routed through VAD and Whisper, respon
 | WebRTC P2P connection (CONNECTED state) | ✅ Working |
 | Bidirectional MTProto signaling relay | ✅ Working |
 | **Outbound audio** (`send_external_frame`, XTTS streaming) | ✅ Working |
-| **Inbound audio** (`on_frames` for P2P calls) |  Blocked by [ntgcalls#44](https://github.com/pytgcalls/ntgcalls/issues/44) |
+| **Inbound audio** (`on_frames` for P2P calls) |  [ntgcalls#44](https://github.com/pytgcalls/ntgcalls/issues/44) |
 | Clean call teardown | ✅ Working |
 
 **About the inbound audio limitation:** ntgcalls 2.1.0 does not deliver `on_frames` callbacks for private 1-on-1 P2P calls — the WebRTC `PacedSender` remains paused because `SignalNetworkState` is never set to `Up`. This is a confirmed upstream library issue, not a configuration error in this project. Group voice chats are not affected.
