@@ -178,4 +178,4 @@ If you integrate this into a network-accessible service, your service source mus
 
 NovaMind Studios — Niedergösgen, Switzerland  
 ki27@ik.me  
-[txpkev.github.io/NOVAMINDSTUDIO](https://txpkev.github.io/NOVAMINDSTUDIO)
+[txpkev.github.io/NOVAMINDSTUDIO](https://txpkev.github.io/novamindstudio)
