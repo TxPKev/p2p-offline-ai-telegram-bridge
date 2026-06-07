@@ -1,6 +1,6 @@
-# telegram-voice
+#p2p-offline-ai-telegram-bridge
 
-Bidirectional voice bridge between Telegram (MTProto) and local audio pipelines.
+A locally running, offline AI – reachable via Telegram voice call (pure voice bridge, no bot). It answers calls, detects motion at the door and sends a live image – all deterministic, on own hardware, without cloud.
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
