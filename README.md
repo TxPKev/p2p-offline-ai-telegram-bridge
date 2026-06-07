@@ -1,6 +1,7 @@
 #p2p-offline-ai-telegram-bridge
 
 A locally running, offline AI – reachable via Telegram voice call (pure voice bridge, no bot). It answers calls, detects motion at the door and sends a live image – all deterministic, on own hardware, without cloud.
+<img width="192" height="240" alt="image" src="https://github.com/user-attachments/assets/9633a78e-22b6-4487-94c3-5b4ea4cedc5d" />
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
